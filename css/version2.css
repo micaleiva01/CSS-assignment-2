@@ -1,7 +1,6 @@
 /* you will add css rules for element selectors and IDs */
-
-
 /* you may add to or change the body rule */
+
 html {
   box-sizing: border-box;
 }
@@ -11,29 +10,35 @@ html {
 
 body {
     font-family: sans-serif;
+    font-size: 1rem;
     color: #000;
     background: #666;
-    margin: 0;
+    margin: auto;
 }
 
 img {
     max-width: 100%; /* DO NOT delete or change this line */
     display: flex;
-    margin: 0 auto;
+    margin: 1px;
+    padding: 1px;
 }
 
 section {
   max-width: 600px;
-  flex: 1 1 auto;
+  justify-content: center;
 }
 
 article {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  padding: 2rem;
-
 }
+
+h2 {
+  display:flex;
+  margin: 0;
+}
+
 
 header {
   display: flex;
@@ -45,9 +50,6 @@ header {
   color: #fff;
 }
 
-h2 {
-  text-align: center;
-}
 
 nav ul {
   display: flex;
@@ -64,8 +66,6 @@ footer {
   color: #fff;
   text-align: center;
 }
-
-
 /* ----- SUGGESTED COLORS -----
     - ARTICLES
     B26219 cinnamon
@@ -114,17 +114,14 @@ a:hover {
 
 /* classes */
 
-
 .photo {
-  margin: 0 10rem;
-  width: 600px;
+  margin: 0 5rem;
+  align-items: center;
 }
 
 
 .text {
   margin: 0;
-  background-color: #fff;
   color: #000;
   padding: 2rem;
-  width: 600px;
 }
